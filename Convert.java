@@ -53,25 +53,25 @@
 
       else if(unit.equals("in")){         
         double cm;
-        cm = userInputDouble*0.39;
+        cm = userInputDouble*2.54;
         System.out.println(userInputDouble + " inch is equal to "+cm+" cm");       
       }
 
       else if(unit.equals("cm")){         
         double in;
-        in = userInputDouble*2.54;
+        in = userInputDouble*0.39;
         System.out.println(userInputDouble + " cm is equal to "+in+" in");       
       }
 
       else if(unit.equals("lb")){          
         double kg;
-        kg = userInputDouble*2.2;
+        kg = userInputDouble*0.45;
         System.out.println(userInputDouble + " lb is equal to "+kg+" kg");       
       }
 
       else if(unit.equals("kg")){         
         double lb;
-        lb = userInputDouble*0.45;
+        lb = userInputDouble*2.2;
         System.out.println(userInputDouble + " kg is equal to "+lb+" lb");      
       }
 
